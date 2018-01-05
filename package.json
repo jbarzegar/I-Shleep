@@ -1,6 +1,6 @@
 {
   "name": "shleep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "James Barzegar <james.barzegar@gmail.com>",
   "repository":
     "https://github.com/jbarzegar/I-Shleep/blob/master/src/index.js",
@@ -11,18 +11,14 @@
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "keywords": ["sleep", "shleep", "es6", "Promise", "async/await"],
-  "files": ["dist", "src"],
+  "files": ["dist", "src", "README.md", "LICENSE"],
   "scripts": {
     "build": "rimraf dist && microbundle"
   },
   "devDependencies": {
-    "any-promise": "^1.3.0",
     "babel-preset-env": "^1.6.1",
     "microbundle": "^0.2.4",
     "rimraf": "^2.6.2"
-  },
-  "peerDependencies": {
-    "any-promise": "*"
   },
   "babel": {
     "presets": [
@@ -37,6 +33,6 @@
     ]
   },
   "dependencies": {
-    "shleep": "file:../shleep/"
+    "any-promise": "^1.3.0"
   }
 }
