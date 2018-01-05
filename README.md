@@ -1,8 +1,13 @@
 # shleep is a promise based sleep function 😴
 
+Shleep is tiny,[coming in at 183 bytes](https://bundlephobia.com/result?p=shleep@1.0.2)
+
 ## Installation
 
+#### Yarn
 `yarn install shleep`
+
+#### Npm
 `npm install -S shleep`
 
 ## Usage
