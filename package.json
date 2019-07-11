@@ -1,6 +1,6 @@
 {
   "name": "shleep",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "James Barzegar <james.barzegar@gmail.com>",
   "repository": "https://github.com/jbarzegar/I-Shleep/blob/master/src/index.js",
   "description": "A es6, async blocking sleep lib",
@@ -30,7 +30,8 @@
     "husky": "2.2.0",
     "microbundle": "^0.11.0",
     "prettier": "1.17.1",
-    "pretty-quick": "1.10.0"
+    "pretty-quick": "1.10.0",
+    "rimraf": "2.6.3"
   },
   "husky": {
     "hooks": {
