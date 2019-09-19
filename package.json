@@ -30,7 +30,7 @@
     "husky": "2.2.0",
     "microbundle": "^0.11.0",
     "prettier": "1.17.1",
-    "pretty-quick": "1.10.0",
+    "pretty-quick": "1.11.1",
     "rimraf": "3.0.0"
   },
   "husky": {
